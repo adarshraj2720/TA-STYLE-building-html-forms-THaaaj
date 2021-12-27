@@ -54,12 +54,17 @@ html{
 }
 body{
     background: url(../assets/bg-intro-desktop.png), #F47778;
+
+}
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .details{
     width: 30%;
 }
 .form-details{
-	margin-top: 150px;
 	display: flex;
 	justify-content:space-around;
 	align-items: center;
